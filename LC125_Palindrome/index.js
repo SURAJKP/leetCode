@@ -1,4 +1,5 @@
 const palindrome = (str) => {
+    str = str.toLowerCase().replace(/[\W_]/g, "");
     let left = 0;
     let right = str.length-1;
     

@@ -10,7 +10,7 @@ const palindrome = (str) => {
         left++;
         right--;
     }
-    return true
+    return true;
 }
 
 module.exports = palindrome;

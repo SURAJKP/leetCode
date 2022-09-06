@@ -18,4 +18,4 @@
     return [p1 + 1, p2 + 1]
 };
 
-module.exports = twoSum;
+export default twoSum;

@@ -20,4 +20,4 @@ function twoSum(arr, t) {
     return res; //time complexity O(n)
 } 
 
-module.exports = twoSum;
+export default twoSum;

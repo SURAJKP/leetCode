@@ -13,4 +13,4 @@ const palindrome = (str) => {
     return true;
 }
 
-module.exports = palindrome;
+export default palindrome;

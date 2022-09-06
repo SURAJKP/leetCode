@@ -33,4 +33,4 @@ const addTwoNumbers = (l1, l2) => {
     
     return result.next;
 }
-module.exports = addTwoNumbers([2,4,3], [5,6,4]); //[7, 0, 8]
+export default addTwoNumbers([2,4,3], [5,6,4]); //[7, 0, 8]
